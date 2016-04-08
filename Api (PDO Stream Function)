@@ -120,7 +120,7 @@ function logout() {
 // there are 2 ways to use the function:
 // 1) don't pass any parameters - then the function will fetch all photos from the database
 // 2) pass a photo id as a parameter - then the function will fetch the data of the requested photo
-$conn = new PDO('mysql:host=localhost;dbname=dbname', 'pushchat', 'd]682\#%yI1nb3');
+$conn = new PDO('mysql:host=localhost;dbname=pushchat', 'pushchat', 'd]682\#%yI1nb3');
 function stream($IdPhoto=0) {
 global $conn;
 
