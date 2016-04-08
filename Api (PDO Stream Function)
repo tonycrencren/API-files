@@ -1,12 +1,12 @@
-<?
-// helper function, which outputs error messages in JSON format
-// so that the iPhone app can read them
-// the function just takes in a dictionary with one key "error" and 
-// encodes it in JSON, then prints it out and then exits the program
-function errorJson($msg){
+    <?
+    // helper function, which outputs error messages in JSON format
+    // so that the iPhone app can read them
+    // the function just takes in a dictionary with one key "error" and 
+    // encodes it in JSON, then prints it out and then exits the program
+    function errorJson($msg){
 	print json_encode(array('error'=>$msg));
 	exit();
-}
+   }
 
 //print("Hello World");
 
