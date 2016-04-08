@@ -1,8 +1,4 @@
 <?php
-// php
-?>
-
-<?php
 
 // helper function, which outputs error messages in JSON format
 // so that the iPhone app can read them
